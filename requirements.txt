@@ -1,0 +1,15 @@
+delta-spark==4.0.0
+importlib_metadata==9.0.0
+iniconfig==2.3.0
+numpy==2.4.6
+packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1777103621/work
+pandas==3.0.3
+pluggy==1.6.0
+py4j==0.10.9.9
+Pygments==2.20.0
+pyspark==4.0.1
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+python-dotenv==1.2.2
+six==1.17.0
+zipp==4.1.0
