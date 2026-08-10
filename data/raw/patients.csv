@@ -1,0 +1,12 @@
+patient_id,first_name,last_name,date_of_birth,gender,city,state,email,source_system,ingestion_date
+P001,Olivia,Martin,1989-04-15,Female,Kansas City,MO,olivia.martin@example.com,EHR,2026-08-01
+P002,Noah,Brown,1978-11-20,Male,Overland Park,KS,noah.brown@example.com,EHR,2026-08-01
+P003,Emma,Davis,1995-02-28,Female,Lenexa,KS,emma.davis@example.com,EHR,2026-08-01
+P004,Liam,Wilson,1983-07-09,Male,Olathe,KS,liam.wilson@example.com,EHR,2026-08-01
+P005,Ava,Johnson,1991-12-05,Female,Kansas City,MO,ava.johnson@example.com,EHR,2026-08-01
+P006,Ethan,Taylor,1986-03-17,Male,Shawnee,KS,ethan.taylor@example.com,EHR,2026-08-01
+P006,Ethan,Taylor,1986-03-17,Male,Shawnee,KS,ethan.taylor@example.com,EHR,2026-08-01
+P007,Mia,Anderson,,Female,Leawood,KS,mia.anderson@example.com,EHR,2026-08-01
+P008,James,Thomas,1990-08-22,Male,,KS,james.thomas@example.com,EHR,2026-08-01
+P009,Sophia,Jackson,1988-01-30,Female,Kansas City,MO,,EHR,2026-08-01
+P010,Benjamin,White,1975-06-11,Male,Overland Park,KS,benjamin.white@example.com,Claims,2026-08-01
