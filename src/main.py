@@ -1,5 +1,6 @@
 from ingestion.bronze_ingestion import main as run_bronze_ingestion
 from transformation.silver_patients import main as run_silver_transformation
+from quality.data_quality_report import main as run_data_quality_report
 from transformation.gold_patient_metrics import main as run_gold_metrics
 
 
@@ -12,7 +13,10 @@ def main():
     print("\nStep 2: Running Silver transformation")
     run_silver_transformation()
 
-    print("\nStep 3: Running Gold metrics creation")
+    print("\nStep 3: Creating data quality report")
+    run_data_quality_report()
+
+    print("\nStep 4: Running Gold metrics creation")
     run_gold_metrics()
 
     print("\nHealthcare Lakehouse Pipeline completed successfully!")
