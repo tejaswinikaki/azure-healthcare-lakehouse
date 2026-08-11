@@ -114,10 +114,15 @@ The sample pipeline processes 11 raw patient records.
 - 1 record is marked for review
 - Gold metrics summarize valid and review records by state and source system
 
+## Databricks Delta Lake Implementation
+
+The repository includes a Databricks notebook at:
+
+```text
+notebooks/healthcare_delta_lakehouse.py
 ## Future Enhancements
 
-- Deploy the pipeline to Azure Databricks
-- Store Bronze, Silver, and Gold layers as Delta tables
+
 - Orchestrate execution using Azure Data Factory
 - Add automated tests and CI/CD using GitHub Actions or Azure DevOps
 - Connect Gold metrics to a Power BI dashboard
