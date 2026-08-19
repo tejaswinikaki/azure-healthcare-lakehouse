@@ -23,6 +23,8 @@ Gold Layer: Patient reporting metrics
 - Python
 - PySpark and Spark SQL
 - Parquet storage
+- Databricks
+- Delta Lake
 - Bronze, Silver, and Gold lakehouse design
 - Data-quality validation
 - Git and GitHub
@@ -120,8 +122,30 @@ The repository includes a Databricks notebook at:
 
 ```text
 notebooks/healthcare_delta_lakehouse.py
-## Future Enhancements
+```
 
+It creates four Delta Lake tables in Databricks:
+
+- `workspace.healthcare_lakehouse.bronze_patients`
+- `workspace.healthcare_lakehouse.silver_patients`
+- `workspace.healthcare_lakehouse.gold_patient_metrics`
+- `workspace.healthcare_lakehouse.data_quality_metrics`
+
+## Execution Proof
+
+### Local PySpark pipeline
+
+![Local pipeline completed successfully](screenshots/pipeline_success.png)
+
+### Databricks Delta Lake tables
+
+![Databricks Delta Lake tables](screenshots/databricks_delta_tables.png)
+
+### Delta format verification
+
+![Bronze table stored as Delta](screenshots/delta_format_proof.png)
+
+## Future Enhancements
 
 - Orchestrate execution using Azure Data Factory
 - Add automated tests and CI/CD using GitHub Actions or Azure DevOps
