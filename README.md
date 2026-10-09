@@ -150,3 +150,14 @@ It creates four Delta Lake tables in Databricks:
 - Orchestrate execution using Azure Data Factory
 - Add automated tests and CI/CD using GitHub Actions or Azure DevOps
 - Connect Gold metrics to a Power BI dashboard
+## HealthLake AI Patient Insights
+
+HealthLake includes a local Streamlit app that uses Gemini AI to answer plain-English questions about the synthetic patient dataset.
+
+### Run the app
+
+```bash
+conda activate healthcare-lakehouse
+pip install -r requirements.txt
+export GEMINI_API_KEY="your_gemini_api_key"
+streamlit run src/ai_assistant/app.py
